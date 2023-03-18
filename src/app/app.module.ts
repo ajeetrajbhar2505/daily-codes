@@ -6,12 +6,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SampleWebsiteComponent } from './sample-website/sample-website.component';
 import { DailyCodesComponent } from './daily-codes/daily-codes.component';
-
+import { ChildComponent } from './child/child.component';
 @NgModule({
   declarations: [
     AppComponent,
     SampleWebsiteComponent,
     DailyCodesComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,
