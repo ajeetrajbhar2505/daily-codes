@@ -33,12 +33,11 @@
   }
 }
 .container {
-  overflow: auto;
+  overflow: hidden;
   display: flex;
   scroll-snap-type: x mandatory;
   padding: 10px;
   align-content: center;
-  overflow-x: scroll;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
   scroll-padding: 10px;

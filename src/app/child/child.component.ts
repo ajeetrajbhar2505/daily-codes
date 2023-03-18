@@ -18,13 +18,5 @@ export class ChildComponent {
     scrollContainer.scrollLeft -= 180; // Change 100 to your desired scroll amount
   }
 
-  // prevSlide() {
-  //   const scrollContainer:any = document.getElementById("scrollContainer");
-  //   scrollContainer.scrollLeft -= scrollContainer.offsetWidth;
-  // }
 
-  // nextSlide() {
-  //   const scrollContainer:any = document.getElementById("scrollContainer");
-  //   scrollContainer.scrollLeft += scrollContainer.offsetWidth;
-  // }
 }
